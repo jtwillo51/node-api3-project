@@ -2,7 +2,7 @@ const server = require("./server")
 
 
 
-const port = 4000;
+const port = process.env.PORT || 4000
 
 
 
